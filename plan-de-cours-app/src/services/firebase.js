@@ -1,19 +1,15 @@
-// Configuration Firebase
-// ⚠️ IMPORTANT: Remplace ces valeurs par celles de ton projet Firebase
-// Va sur https://console.firebase.google.com → Ton projet → Paramètres → Config
-
 import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID
+  apiKey: "AIzaSyADEXrDW69F3NcE0UsjZovmzup000hRAGI",
+  authDomain: "aiapp-a1d08.firebaseapp.com",
+  projectId: "aiapp-a1d08",
+  storageBucket: "aiapp-a1d08.firebasestorage.app",
+  messagingSenderId: "204397861944",
+  appId: "1:204397861944:web:8d1025b29e78e24e181acd"
 };
 
 // Initialiser Firebase
